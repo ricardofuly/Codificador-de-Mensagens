@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c4c65779e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+
+    
+
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+
+         <img src="/img/logo.svg" alt="" class="logo">
+
+        <section class="texto-encriptado" id="entrada">
+             <textarea name="" id="mensagem" cols="70" rows="20" placeholder="Digite o seu texto aqui."></textarea>
+              <p><i class="fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento.</p>
+              <div class="botoes">
+                    <button  class="botao-encriptar" id="criptografar">Criptografar</button>
+                    <button  class="botao-desencriptar" id="descriptografar">Descriptografar</button>
+              </div> 
+              <span id="msg" class="aviso"></span>
+        </section>
+
+       
+        <section>
+            <div id="decodificador">
+                <img src="/img/personagem.svg" alt="" class="img-personagem">
+                <h1 class="titulo">Nenhuma mensagem encontrada</h1>
+                <p class="paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            
+        </section>
+    </main>
+
+    <script  src="/js/script.js"></script>
+</body>
+</html>
